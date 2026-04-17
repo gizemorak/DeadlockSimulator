@@ -1,9 +1,0 @@
-===== Deadlock Simülatörü Log Dosyası =====
-
-[11:37:58] === Deadlock Oluşturan Senaryo Başladı ===
-[11:37:58] Thread-2: Resource-B alınmak isteniyor.
-[11:37:58] Thread-1: Resource-A alınmak isteniyor.
-[11:37:58] Thread-1: Resource-A alındı.
-[11:37:58] Thread-2: Resource-B alındı.
-[11:37:59] Thread-2: Resource-A alınmak isteniyor.
-[11:37:59] Thread-1: Resource-B alınmak isteniyor.
