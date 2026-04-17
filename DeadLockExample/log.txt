@@ -1,0 +1,201 @@
+===== Deadlock Simülatörü Log Dosyası =====
+
+[11:12:31] Log dosyası konumu: C:\Users\57503\Desktop\DeadLock\DeadLockExample\DeadLockExample\log.txt
+[11:12:31] === İstatistiksel Test Başladı ===
+[11:12:31] 
+--- Deneme 1 başladı ---
+[11:12:31] Thread-1 (Deneme 1): Resource-A alınmak isteniyor.
+[11:12:31] Thread-2 (Deneme 1): Resource-B alınmak isteniyor.
+[11:12:31] Thread-1 (Deneme 1): Resource-A alındı.
+[11:12:31] Thread-2 (Deneme 1): Resource-B alındı.
+[11:12:31] Thread-1 (Deneme 1): 569 ms bekliyor...
+[11:12:31] Thread-2 (Deneme 1): 697 ms bekliyor...
+[11:12:32] Thread-1 (Deneme 1): Resource-B alınmak isteniyor.
+[11:12:32] Thread-2 (Deneme 1): Resource-A alınmak isteniyor.
+[11:12:34] Thread-1 (Deneme 1): Resource-B için timeout oluştu.
+[11:12:34] Deadlock detected: Thread-1 ikinci kaynağı alamadı.
+[11:12:34] Thread-1 (Deneme 1): Resource-A bırakıldı.
+[11:12:34] Thread-2 (Deneme 1): Resource-A alındı.
+[11:12:34] Thread-2 (Deneme 1): İşlem tamamlandı.
+[11:12:34] Thread-2 (Deneme 1): Resource-A bırakıldı.
+[11:12:34] Thread-2 (Deneme 1): Resource-B bırakıldı.
+[11:12:34] Deneme 1 sonucu: Deadlock tespit edildi.
+[11:12:34] Deneme 1 süresi: 2715 ms
+[11:12:34] 
+--- Deneme 2 başladı ---
+[11:12:34] Thread-1 (Deneme 2): Resource-A alınmak isteniyor.
+[11:12:34] Thread-1 (Deneme 2): Resource-A alındı.
+[11:12:34] Thread-1 (Deneme 2): 764 ms bekliyor...
+[11:12:34] Thread-2 (Deneme 2): Resource-B alınmak isteniyor.
+[11:12:34] Thread-2 (Deneme 2): Resource-B alındı.
+[11:12:34] Thread-2 (Deneme 2): 405 ms bekliyor...
+[11:12:35] Thread-2 (Deneme 2): Resource-A alınmak isteniyor.
+[11:12:35] Thread-1 (Deneme 2): Resource-B alınmak isteniyor.
+[11:12:37] Thread-2 (Deneme 2): Resource-A için timeout oluştu.
+[11:12:37] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:37] Thread-2 (Deneme 2): Resource-B bırakıldı.
+[11:12:37] Thread-1 (Deneme 2): Resource-B alındı.
+[11:12:37] Thread-1 (Deneme 2): İşlem tamamlandı.
+[11:12:37] Thread-1 (Deneme 2): Resource-B bırakıldı.
+[11:12:37] Thread-1 (Deneme 2): Resource-A bırakıldı.
+[11:12:37] Deneme 2 sonucu: Deadlock tespit edildi.
+[11:12:37] Deneme 2 süresi: 2562 ms
+[11:12:37] 
+--- Deneme 3 başladı ---
+[11:12:37] Thread-1 (Deneme 3): Resource-A alınmak isteniyor.
+[11:12:37] Thread-2 (Deneme 3): Resource-B alınmak isteniyor.
+[11:12:37] Thread-2 (Deneme 3): Resource-B alındı.
+[11:12:37] Thread-1 (Deneme 3): Resource-A alındı.
+[11:12:37] Thread-1 (Deneme 3): 484 ms bekliyor...
+[11:12:37] Thread-2 (Deneme 3): 619 ms bekliyor...
+[11:12:37] Thread-1 (Deneme 3): Resource-B alınmak isteniyor.
+[11:12:37] Thread-2 (Deneme 3): Resource-A alınmak isteniyor.
+[11:12:39] Thread-1 (Deneme 3): Resource-B için timeout oluştu.
+[11:12:39] Deadlock detected: Thread-1 ikinci kaynağı alamadı.
+[11:12:39] Thread-1 (Deneme 3): Resource-A bırakıldı.
+[11:12:39] Thread-2 (Deneme 3): Resource-A alındı.
+[11:12:39] Thread-2 (Deneme 3): İşlem tamamlandı.
+[11:12:39] Thread-2 (Deneme 3): Resource-A bırakıldı.
+[11:12:39] Thread-2 (Deneme 3): Resource-B bırakıldı.
+[11:12:39] Deneme 3 sonucu: Deadlock tespit edildi.
+[11:12:39] Deneme 3 süresi: 2641 ms
+[11:12:39] 
+--- Deneme 4 başladı ---
+[11:12:39] Thread-2 (Deneme 4): Resource-B alınmak isteniyor.
+[11:12:39] Thread-1 (Deneme 4): Resource-A alınmak isteniyor.
+[11:12:39] Thread-2 (Deneme 4): Resource-B alındı.
+[11:12:39] Thread-1 (Deneme 4): Resource-A alındı.
+[11:12:39] Thread-2 (Deneme 4): 901 ms bekliyor...
+[11:12:39] Thread-1 (Deneme 4): 972 ms bekliyor...
+[11:12:40] Thread-2 (Deneme 4): Resource-A alınmak isteniyor.
+[11:12:40] Thread-1 (Deneme 4): Resource-B alınmak isteniyor.
+[11:12:42] Thread-2 (Deneme 4): Resource-A için timeout oluştu.
+[11:12:42] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:42] Thread-2 (Deneme 4): Resource-B bırakıldı.
+[11:12:42] Thread-1 (Deneme 4): Resource-B alındı.
+[11:12:42] Thread-1 (Deneme 4): İşlem tamamlandı.
+[11:12:42] Thread-1 (Deneme 4): Resource-B bırakıldı.
+[11:12:42] Thread-1 (Deneme 4): Resource-A bırakıldı.
+[11:12:42] Deneme 4 sonucu: Deadlock tespit edildi.
+[11:12:42] Deneme 4 süresi: 3042 ms
+[11:12:42] 
+--- Deneme 5 başladı ---
+[11:12:42] Thread-1 (Deneme 5): Resource-A alınmak isteniyor.
+[11:12:42] Thread-1 (Deneme 5): Resource-A alındı.
+[11:12:42] Thread-2 (Deneme 5): Resource-B alınmak isteniyor.
+[11:12:42] Thread-1 (Deneme 5): 288 ms bekliyor...
+[11:12:42] Thread-2 (Deneme 5): Resource-B alındı.
+[11:12:42] Thread-2 (Deneme 5): 287 ms bekliyor...
+[11:12:43] Thread-1 (Deneme 5): Resource-B alınmak isteniyor.
+[11:12:43] Thread-2 (Deneme 5): Resource-A alınmak isteniyor.
+[11:12:45] Thread-1 (Deneme 5): Resource-B için timeout oluştu.
+[11:12:45] Deadlock detected: Thread-1 ikinci kaynağı alamadı.
+[11:12:45] Thread-1 (Deneme 5): Resource-A bırakıldı.
+[11:12:45] Thread-2 (Deneme 5): Resource-A için timeout oluştu.
+[11:12:45] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:45] Thread-2 (Deneme 5): Resource-B bırakıldı.
+[11:12:45] Deneme 5 sonucu: Deadlock tespit edildi.
+[11:12:45] Deneme 5 süresi: 2422 ms
+[11:12:45] 
+--- Deneme 6 başladı ---
+[11:12:45] Thread-2 (Deneme 6): Resource-B alınmak isteniyor.
+[11:12:45] Thread-2 (Deneme 6): Resource-B alındı.
+[11:12:45] Thread-1 (Deneme 6): Resource-A alınmak isteniyor.
+[11:12:45] Thread-2 (Deneme 6): 771 ms bekliyor...
+[11:12:45] Thread-1 (Deneme 6): Resource-A alındı.
+[11:12:45] Thread-1 (Deneme 6): 908 ms bekliyor...
+[11:12:46] Thread-2 (Deneme 6): Resource-A alınmak isteniyor.
+[11:12:46] Thread-1 (Deneme 6): Resource-B alınmak isteniyor.
+[11:12:48] Thread-2 (Deneme 6): Resource-A için timeout oluştu.
+[11:12:48] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:48] Thread-2 (Deneme 6): Resource-B bırakıldı.
+[11:12:48] Thread-1 (Deneme 6): Resource-B alındı.
+[11:12:48] Thread-1 (Deneme 6): İşlem tamamlandı.
+[11:12:48] Thread-1 (Deneme 6): Resource-B bırakıldı.
+[11:12:48] Thread-1 (Deneme 6): Resource-A bırakıldı.
+[11:12:48] Deneme 6 sonucu: Deadlock tespit edildi.
+[11:12:48] Deneme 6 süresi: 2930 ms
+[11:12:48] 
+--- Deneme 7 başladı ---
+[11:12:48] Thread-1 (Deneme 7): Resource-A alınmak isteniyor.
+[11:12:48] Thread-1 (Deneme 7): Resource-A alındı.
+[11:12:48] Thread-1 (Deneme 7): 564 ms bekliyor...
+[11:12:48] Thread-2 (Deneme 7): Resource-B alınmak isteniyor.
+[11:12:48] Thread-2 (Deneme 7): Resource-B alındı.
+[11:12:48] Thread-2 (Deneme 7): 634 ms bekliyor...
+[11:12:48] Thread-1 (Deneme 7): Resource-B alınmak isteniyor.
+[11:12:49] Thread-2 (Deneme 7): Resource-A alınmak isteniyor.
+[11:12:50] Thread-1 (Deneme 7): Resource-B için timeout oluştu.
+[11:12:51] Deadlock detected: Thread-1 ikinci kaynağı alamadı.
+[11:12:51] Thread-1 (Deneme 7): Resource-A bırakıldı.
+[11:12:51] Thread-2 (Deneme 7): Resource-A alındı.
+[11:12:51] Thread-2 (Deneme 7): İşlem tamamlandı.
+[11:12:51] Thread-2 (Deneme 7): Resource-A bırakıldı.
+[11:12:51] Thread-2 (Deneme 7): Resource-B bırakıldı.
+[11:12:51] Deneme 7 sonucu: Deadlock tespit edildi.
+[11:12:51] Deneme 7 süresi: 2714 ms
+[11:12:51] 
+--- Deneme 8 başladı ---
+[11:12:51] Thread-1 (Deneme 8): Resource-A alınmak isteniyor.
+[11:12:51] Thread-2 (Deneme 8): Resource-B alınmak isteniyor.
+[11:12:51] Thread-1 (Deneme 8): Resource-A alındı.
+[11:12:51] Thread-2 (Deneme 8): Resource-B alındı.
+[11:12:51] Thread-1 (Deneme 8): 999 ms bekliyor...
+[11:12:51] Thread-2 (Deneme 8): 492 ms bekliyor...
+[11:12:51] Thread-2 (Deneme 8): Resource-A alınmak isteniyor.
+[11:12:52] Thread-1 (Deneme 8): Resource-B alınmak isteniyor.
+[11:12:53] Thread-2 (Deneme 8): Resource-A için timeout oluştu.
+[11:12:53] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:53] Thread-2 (Deneme 8): Resource-B bırakıldı.
+[11:12:53] Thread-1 (Deneme 8): Resource-B alındı.
+[11:12:53] Thread-1 (Deneme 8): İşlem tamamlandı.
+[11:12:53] Thread-1 (Deneme 8): Resource-B bırakıldı.
+[11:12:53] Thread-1 (Deneme 8): Resource-A bırakıldı.
+[11:12:53] Deneme 8 sonucu: Deadlock tespit edildi.
+[11:12:53] Deneme 8 süresi: 2659 ms
+[11:12:53] 
+--- Deneme 9 başladı ---
+[11:12:53] Thread-1 (Deneme 9): Resource-A alınmak isteniyor.
+[11:12:53] Thread-1 (Deneme 9): Resource-A alındı.
+[11:12:53] Thread-1 (Deneme 9): 753 ms bekliyor...
+[11:12:53] Thread-2 (Deneme 9): Resource-B alınmak isteniyor.
+[11:12:53] Thread-2 (Deneme 9): Resource-B alındı.
+[11:12:53] Thread-2 (Deneme 9): 413 ms bekliyor...
+[11:12:54] Thread-2 (Deneme 9): Resource-A alınmak isteniyor.
+[11:12:54] Thread-1 (Deneme 9): Resource-B alınmak isteniyor.
+[11:12:56] Thread-2 (Deneme 9): Resource-A için timeout oluştu.
+[11:12:56] Deadlock detected: Thread-2 ikinci kaynağı alamadı.
+[11:12:56] Thread-2 (Deneme 9): Resource-B bırakıldı.
+[11:12:56] Thread-1 (Deneme 9): Resource-B alındı.
+[11:12:56] Thread-1 (Deneme 9): İşlem tamamlandı.
+[11:12:56] Thread-1 (Deneme 9): Resource-B bırakıldı.
+[11:12:56] Thread-1 (Deneme 9): Resource-A bırakıldı.
+[11:12:56] Deneme 9 sonucu: Deadlock tespit edildi.
+[11:12:56] Deneme 9 süresi: 2610 ms
+[11:12:56] 
+--- Deneme 10 başladı ---
+[11:12:56] Thread-1 (Deneme 10): Resource-A alınmak isteniyor.
+[11:12:56] Thread-2 (Deneme 10): Resource-B alınmak isteniyor.
+[11:12:56] Thread-1 (Deneme 10): Resource-A alındı.
+[11:12:56] Thread-1 (Deneme 10): 290 ms bekliyor...
+[11:12:56] Thread-2 (Deneme 10): Resource-B alındı.
+[11:12:56] Thread-2 (Deneme 10): 941 ms bekliyor...
+[11:12:56] Thread-1 (Deneme 10): Resource-B alınmak isteniyor.
+[11:12:57] Thread-2 (Deneme 10): Resource-A alınmak isteniyor.
+[11:12:58] Thread-1 (Deneme 10): Resource-B için timeout oluştu.
+[11:12:58] Deadlock detected: Thread-1 ikinci kaynağı alamadı.
+[11:12:58] Thread-1 (Deneme 10): Resource-A bırakıldı.
+[11:12:58] Thread-2 (Deneme 10): Resource-A alındı.
+[11:12:58] Thread-2 (Deneme 10): İşlem tamamlandı.
+[11:12:58] Thread-2 (Deneme 10): Resource-A bırakıldı.
+[11:12:58] Thread-2 (Deneme 10): Resource-B bırakıldı.
+[11:12:58] Deneme 10 sonucu: Deadlock tespit edildi.
+[11:12:58] Deneme 10 süresi: 2463 ms
+[11:12:58] 
+=== İstatistik Sonuçları ===
+[11:12:58] Toplam deneme sayısı: 10
+[11:12:58] Deadlock tespit edilen deneme sayısı: 10
+[11:12:58] Başarıyla tamamlanan deneme sayısı: 0
+[11:12:58] Deadlock oluşma oranı: %100,00
+[11:12:58] Ortalama deneme süresi: 2675,80 ms
+[11:12:58] Program sonlandı.
