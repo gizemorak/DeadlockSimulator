@@ -1,6 +1,6 @@
 ﻿# Deadlock Simulator (C#)
 
-Bu proje, işletim sistemlerinde önemli bir problem olan **deadlock (ölümcül kilitlenme)** durumunu simüle etmek ve analiz etmek amacıyla geliştirilmiştir.
+Bu proje, bilişim teknolojileri yüksek lisans işletim sistemleri dersi kapsamında işletim sistemlerinde önemli bir problem olan **deadlock (ölümcül kilitlenme)** durumunu simüle etmek ve analiz etmek amacıyla geliştirilmiştir.
 
 ## 📌 Proje Amacı
 
