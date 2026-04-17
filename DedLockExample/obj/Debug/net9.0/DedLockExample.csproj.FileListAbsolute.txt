@@ -1,0 +1,14 @@
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\bin\Debug\net9.0\DedLockExample.exe
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\bin\Debug\net9.0\DedLockExample.deps.json
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\bin\Debug\net9.0\DedLockExample.runtimeconfig.json
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\bin\Debug\net9.0\DedLockExample.dll
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\bin\Debug\net9.0\DedLockExample.pdb
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.AssemblyInfoInputs.cache
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.AssemblyInfo.cs
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.csproj.CoreCompileInputs.cache
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.dll
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\refint\DedLockExample.dll
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.pdb
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\DedLockExample.genruntimeconfig.cache
+C:\Users\57503\Desktop\DeadLock\DedLockExample\DedLockExample\obj\Debug\net9.0\ref\DedLockExample.dll
